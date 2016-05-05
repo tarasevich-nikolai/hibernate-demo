@@ -10,7 +10,7 @@
     <property name="connection.password">mysql</property>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
     <property name="hibernate.default_schema">hibernate_demo</property>
-    <property name="hibernate.show_sql">true</property>
+    <mapping resource="tarasevich/nikolai/user/Dbuser.hbm.xml"/>
     <mapping class="tarasevich.nikolai.user.DBUser"/>
     <!-- DB schema will be updated if needed -->
     <!-- <property name="hbm2ddl.auto">update</property> -->
