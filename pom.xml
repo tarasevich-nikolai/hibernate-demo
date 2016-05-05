@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>quick_start_xml</module>
+        <module>quick_start_annotation</module>
     </modules>
 
     <dependencies>
