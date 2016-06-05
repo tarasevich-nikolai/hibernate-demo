@@ -4,7 +4,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="tarasevich.nikolai.user.DBUser" table="DBUser" schema="hibernate_demo">
+    <class name="tarasevich.tarasevich.nikolai.user.DBUser" table="DBUser" schema="hibernate_demo">
         <id name="userId" type="int">
             <column name="USER_ID" precision="5" scale="0" />
             <generator class="increment" />

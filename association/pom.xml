@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>hibernate.demo</artifactId>
-        <groupId>nikolai.tarasevich</groupId>
+        <groupId>tarasevich.nikolai.tarasevich</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,6 +12,7 @@
     <artifactId>association</artifactId>
     <modules>
         <module>one_to_one_xml</module>
+        <module>one_to_one_annotation</module>
     </modules>
 
 
