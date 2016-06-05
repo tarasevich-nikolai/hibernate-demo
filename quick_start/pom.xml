@@ -12,7 +12,6 @@
 
     <artifactId>quick.start</artifactId>
     <modules>
-        <module>annotation</module>
         <module>xml</module>
     </modules>
 
